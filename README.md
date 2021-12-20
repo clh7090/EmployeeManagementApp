@@ -1,6 +1,6 @@
 # EmployeeManagementApp
 
-###Frontend Tools and Technologies used
+### Frontend Tools and Technologies used
 <ul>
 <li>React 17.0.2</li>
 <li>ES6</li>
@@ -9,7 +9,7 @@
 <li>Axios 0.24.0</li>
 </ul>
 
-###Backend Tools and Technologies used
+### Backend Tools and Technologies used
 <ul>
 <li>Springboot 2.6.1</li>
 <li>SpringDataJPA</li>
@@ -18,7 +18,17 @@
 <li>MySQL</li>
 </ul>
 
-##Setup 
+### Prerequesites 
+<ul>
+    <li>
+    MySQL database connection on port 3306
+    </li> <br>
+    <li>
+    NodeJS version 16.13.1 installed
+    </li> 
+</ul> <br>
+
+## Setup 
 <ol>
 
 <li> <!--- 1 --->
@@ -41,10 +51,10 @@ Configure application.properties by adding the following lines here:
 
 </ol>
 
-##Starting the application
+## Starting the application
 <ol>
 <li>
-Make sure database is up and running on localhost:8080
+Make sure database is up and running on localhost:3306
 </li> <br>
 
 <li>
@@ -54,7 +64,7 @@ run the SpringbootBackendApplication
 
 <li>
 cd ~/react-frontend <br>
-run the command npm start to start the website up on localhost:3030
+run the command npm install and then npm start to start the website up on localhost:3000
 </li> <br>
 
 <li>
